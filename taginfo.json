@@ -1,0 +1,15 @@
+   {
+       "data_format": 1,
+       "data_url": "...",          # this should be the URL under which this project file can be accessed (optional)
+       "data_updated": "20250115T142600Z",
+       "project": {
+           "name": "F4 map",
+           "description": "OpenStreetMap 3D viewer powered by WebGL.",
+           "project_url": "https://demo.f4map.com/",
+           "doc_url": "https://wiki.f4map.com/",
+           "icon_url": "https://core.f4map.com/cacheForever/7c9b8dc1271ef66637eb7ff76f58db6b3b8484c5/images/f4_favicon.png"
+           "contact_name": "Andres Gomez",  # contact name, needed for taginfo maintainer (required)
+           "contact_email": "angoca at yahoo dot com"  # contact email, needed for taginfo maintainer (required)
+       },
+       "tags": [...]               # list of keys and tags used (see below)
+   }
