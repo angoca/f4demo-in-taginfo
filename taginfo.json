@@ -1,15 +1,720 @@
-   {
-       "data_format": 1,
-       "data_url": "...",          # this should be the URL under which this project file can be accessed (optional)
-       "data_updated": "20250115T142600Z",
-       "project": {
-           "name": "F4 map",
-           "description": "OpenStreetMap 3D viewer powered by WebGL.",
-           "project_url": "https://demo.f4map.com/",
-           "doc_url": "https://wiki.f4map.com/",
-           "icon_url": "https://core.f4map.com/cacheForever/7c9b8dc1271ef66637eb7ff76f58db6b3b8484c5/images/f4_favicon.png"
-           "contact_name": "Andres Gomez",  # contact name, needed for taginfo maintainer (required)
-           "contact_email": "angoca at yahoo dot com"  # contact email, needed for taginfo maintainer (required)
-       },
-       "tags": [...]               # list of keys and tags used (see below)
-   }
+{
+   "data_format": 1,
+   "data_url": "https://github.com/angoca/f4demo-in-taginfo/blob/main/taginfo.json",
+   "data_updated": "20250115T142600Z",
+   "project": {
+      "name": "F4 map",
+      "description": "OpenStreetMap 3D viewer powered by WebGL.",
+      "project_url": "https://demo.f4map.com/",
+      "doc_url": "https://wiki.f4map.com/",
+      "icon_url": "https://core.f4map.com/cacheForever/7c9b8dc1271ef66637eb7ff76f58db6b3b8484c5/images/f4_favicon.png"
+      "contact_name": "Andres Gomez Casanova-AngocA",  # contact name, needed for taginfo maintainer (required)
+      "contact_email": "angoca at yahoo dot com"  # contact email, needed for taginfo maintainer (required)
+   },
+   "tags": [
+      {
+         "key": "aerialway",
+         "value": "cable_car",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "chair_lift",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "drag_lift",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "gondola",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "j-bar",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "mixed_lift",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "platter",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "aerialway",
+         "value": "pylon",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "aerialway",
+         "value": "t-bar",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "amenity",
+         "value": "fountain",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "amenity",
+         "value": "grave_yard",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "artwork_type",
+         "value": "statue",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "artwork_type",
+         "value": "sculpture",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "artwork:type",
+         "value": "sculpture",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "barrier",
+         "value": "fence",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "barrier",
+         "value": "hedge",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "barrier",
+         "value": "wall",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "boat",
+         "value": "designated",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "boat",
+         "value": "permissive",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "boat",
+         "value": "yes",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building",
+         "value": "carport",
+         "doc_url": "https://core.f4map.com/changelog"
+      },      
+      {
+         "key": "building",
+         "value": "roof",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building",
+         "value": "yes",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:facade:material",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:level:underground",
+         "doc_url": "https://core.f4map.com/changelog"
+      },      
+      {
+         "key": "building:levels",
+         "description": "Redered with 3m per level",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:material",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:part",
+         "value": "roof",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:part",
+         "value": "steps",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:shape",
+         "value": "dome",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "double_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "flat",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "gabled",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:shape",
+         "value": "gambrel",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "half-hipped",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "hipped",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "mansard",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "onion",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "pitched",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "pyramid",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "pyramidal",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:shape",
+         "value": "quadruple_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "round",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "sawtooth",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:shape",
+         "value": "skillion",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:shape",
+         "value": "triple_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "dome",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "double_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "flat",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "half-hipped",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "gabled",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "gambrel",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "hipped",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "onion",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "mansard",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "pitched",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "pyramid",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "pyramidal",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "quadruple_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "round",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "sawtooth",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "building:roof:shape",
+         "value": "skillion",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "building:roof:shape",
+         "value": "triple_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "cables",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "direction",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "generator:source",
+         "value": "wind",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "golf",
+         "value": "pin",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "golf",
+         "value": "hole",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "height",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "highway",
+         "value": "street_lamp",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "highway",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "brownfield",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "cemetery",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "construction",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "forest",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "orchard",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "plant_nursery",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "landuse",
+         "value": "vineyard",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "man_made",
+         "value": "antenna",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "chimney",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "communications_tower",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "cooling_tower",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "man_made",
+         "value": "flagpole",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "lighthouse",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "mast",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "petroleum_well",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "man_made",
+         "value": "tower",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "megalith_type",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "min_height",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "monument",
+         "value": "statue",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "natural",
+         "value": "grassland",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "natural",
+         "value": "heath",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "natural",
+         "value": "scrub",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "natural",
+         "value": "stone",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "natural",
+         "value": "tree",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "natural",
+         "value": "tree_row",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "natural",
+         "value": "wood",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "power",
+         "value": "generator",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "power",
+         "value": "line",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "power",
+         "value": "minor_line",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "power",
+         "value": "pole",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "power",
+         "value": "tower",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:cone",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:direction",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },
+      {
+         "key": "roof:height",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:monopitch",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:orientation",
+         "value": "across",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:orientation",
+         "value": "along",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "dome",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "roof:shape",
+         "value": "double_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "flat",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "gabled",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "half-hipped",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "gambrel",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "hipped",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "mansard",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "onion",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "pitched",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "roof:shape",
+         "value": "pyramid",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "pyramidal",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "roof:shape",
+         "value": "quadruple_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "round",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "sawtooth",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "roof:shape",
+         "value": "skillion",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "roof:shape",
+         "value": "triple_saltbox",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "roof:slope:direction",
+         "value": "N",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "NE",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "E",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "SE",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "S",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "SW",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "W",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },      
+      {
+         "key": "roof:slope:direction",
+         "value": "NW",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },
+      {
+         "key": "route",
+         "value": "ferry",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "step_count",
+         "doc_url": "https://core.f4map.com/changelog"
+      },      
+      {
+         "key": "steps:height",
+         "doc_url": "https://wiki.f4map.com/changelog"
+      },
+      {
+         "key": "statue",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "tower:type",
+         "value": "cooling",
+         "doc_url": "https://wiki.f4map.com/render"
+      },      
+      {
+         "key": "wall",
+         "value": "no",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "waterway",
+         "value": "canal",
+         "doc_url": "https://wiki.f4map.com/render"
+      },
+      {
+         "key": "waterway",
+         "value": "river",
+         "doc_url": "https://wiki.f4map.com/render"
+      }
+   ]
+}
